@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/Abhinav1997/"
+           revision="refs/heads/oreo-m2-s3-release" />
   <remote  name="github"
            fetch="https://github.com/CanebrakeOS/"
            revision="refs/heads/oreo-m2-s3-release" />
@@ -104,9 +107,9 @@
   <project path="external/c-ares" name="platform/external/c-ares" groups="pdk" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
+  <project path="external/chromium" name="platform_external_chromium" remote="bitbucket" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform_external_clang" groups="pdk" remote="github" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -440,7 +443,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="github" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
