@@ -6,10 +6,10 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="bitbucket"
            fetch="https://bitbucket.org/Abhinav1997/"
-           revision="refs/heads/oreo-m2-s3-release" />
+           revision="refs/tags/OPM2.171026.006.C1.2018.06.20.19" />
   <remote  name="github"
            fetch="https://github.com/CanebrakeOS/"
-           revision="refs/heads/oreo-m2-s3-release" />
+           revision="refs/tags/OPM2.171026.006.C1.2018.06.20.19" />
   <default revision="refs/tags/android-8.1.0_r33"
            remote="aosp"
            sync-j="4" />
